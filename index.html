@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+  <title>Build.myweb</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/buildlogo.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-end">
+    <div class="container-fluid">
+        <a class="navbar-brand">
+            <img src="images/buildlogo.png" alt="Logo" style="width:100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarmenu">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mentors">Mentors</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#participants">Participants</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!--Carousel-->
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/SLIDE1.png" alt="SLIDE1" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="images/SLIDE2.png" alt="SLIDE2" class="d-block" style="width:100%">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousal" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+
+
+
+<!--Telegram-->   
+<div id="example-div" class="bg-light d-flex aligns-items-center justify-content-center" style="height:200px; flex-direction: column; align-items: center; margin-top: 25px;">
+    <h3>Join Us</h3>
+    <p align="center">Pygrammers is a community of python enthusiasts with similar idealogies and interests</p>
+    <a href="https://telegram.me/pygrammers_official">
+        <button  type="button" class="btn btn-primary" style="border-radius: 30px;">Telegram</button>
+    </a>
+</div>
+
+
+
+
+<!--Register-->
+<div class="container p-3 my-5 border"  id="register" style=" box-shadow: 0 0 20px 7px rgba(0,0,0,0.1); border-radius: 20px;">
+    <h2 align="center">Form:</h2><br>
+    <form>
+      <div class="container" >
+          <p align="center" class="my-2 p-1">Name</p>
+          <input type="text" class="form-control" style="border-radius: 50px;">
+          <p align="center" class="my-2 p-1">Mobile Number</p>
+          <input type="text" class="form-control" style="border-radius: 50px;">
+          <p align="center" class="my-2 p-1">Email Address</Address></p>
+          <input type="text" class="form-control" style="border-radius: 50px;">
+          <p align="center" class="my-2 p-1">Company/Institution Name</p>
+          <input type="text" class="form-control  muted" style="border-radius: 50px;"><br>
+          <label align="left"><small class="text-muted">Upload a short video or image of hand written sheet showing your interest to join build.myweb</small></label><br><br>
+          <input type="file" class="form-control-file" id="hh" ><br><br>
+          <select class="form-select" style="border-radius: 50px;">
+              <option selected>Have you attended ay events by pygramers before?!</option>
+              <option value="yes">yes</option>
+              <option value="no">no</option>
+          </select><br>
+          <div class="container-fluid p-2" align="center" >
+              <button  type="button" class="btn btn-secondary" style="border-radius: 30px;">submit Form</button>
+          </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+<!--Mentors-->
+<section id="Mentors">
+    <div class="container">
+        <a id="mentors"></a>
+        <div class="title">
+            <h1>Mentors</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://images.moneycontrol.com/static-mcnews/2022/04/Elon-Musk-AFP-2.jpg?impolicy=website&width=770&height=431" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Elon Reeve Musk</h5>
+                        <p class="card-text">CEO of Tesla</p>
+                        <!--<a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="data:image/jpeg;base64,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" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tim Cook</h5>
+                        <p class="card-text">CEO of Apple</p>
+                        <!--<a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2018/04/14/34553-mark-zuckerberg-reuters.jpg?itok=OWLmGhYa&c=c1448791ec1bbeff515c7c2c7b711095" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mark Zuckerberg</h5>
+                        <p class="card-text">CEO of Facebook</p>
+                       <!-- <a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz0RQuOoSMVSfqGrREhTCS0mey5FteckHzTPPWl6xht2QQt8cqLv0VXou8yuINeryA2BE&usqp=CAU" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Satya Nadella</h5>
+                        <p class="card-text">CEO of Microsoft</p>
+                        <!--<a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div>  <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://images.hindustantimes.com/img/2021/12/03/1600x900/Google_CEO_Sundar_Pichai_1638536417247_1638536417469.JPG" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Sundar Pichai</h5>
+                        <p class="card-text">CEO of Google</p>
+                        <!--<a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div> <div class="col-md-4">
+                <div class="card text-center">
+                    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXyhK3fBeSsOP1kFbnXydTq4hr6BqeN_9Boe1eXGUyzgGMlv9scw-Ezc7IF8qHnaTc_s&usqp=CAU" class="card-mg-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Susan Wojcicki</h5>
+                        <p class="card-text">CEO of Youtube</p>
+                       <!-- <a href="#">fafafaf</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--Participants-->
+<div align="center" id="participants">
+    <h5>Participants</h5>
+    <table class="table bg-light p-5" id="table">
+        <thead >
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Github</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr >
+            <th class="nobor" scope="row">1</th>
+            <td class="nobor">Vishnu S Pramod</td>
+            <td class="nobor"><a href="https://github.com/V-I-S-H-N-U" class="username">@V-I-S-H-N-U</a></td>
+          </tr>
+          <tr>
+            <th class="nobor" scope="row">2</th>
+            <td class="nobor">Alan Sebastian</td>
+            <td class="nobor"><a href="https://github.com/Alan-Sebastian" class="username">@Alan-Sebastian</a></td>
+          </tr>
+          <tr>
+            <th class="nobor" scope="row">3</th>
+            <td class="nobor">Abel Mathew Simon</td>
+            <td class="nobor"><a href="https://github.com/abelmathew07"  class="username">@abelmathew07</a></td>
+          </tr>
+          <tr>
+            <th class="nobor" scope="row">4</th>
+            <td class="nobor">Tina Joy</td>
+            <td class="nobor"><a href="https://github.com/TinaJoy02" class="username">@TinaJoy02</a></td>
+          </tr>
+          <tr>
+            <th class="nobor" scope="row">5</th>
+            <td class="nobor">Abhijith A V</td>
+            <td class="nobor"><a href="https://github.com/ABHIJITH-AV" class="username">@ABHIJITH-AV</a></td>
+          </tr>
+          <tr>
+            <th class="nobor" scope="row">6</th>
+            <td class="nobor">Arathy P M</td>
+            <td class="nobor"><a href="https://github.com/i-am-arathypm" class="username">@i-am-arathypm</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+<!--Footer-->
+<footer class="text-center" align="center" style="background-color: #dbe5e6;">
+    <a class="navbar-brand" href="#">
+        <img src="images/footer.png" style="width: 30%;">
+    </a>
+</footer>
+
+
+
+
+    
+
+</body>
+</html>
